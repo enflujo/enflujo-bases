@@ -14,7 +14,6 @@ Estos son los elementos que van en el `<head>` del html:
 El archivo `sitio.webmanifest` se escribe en formato de JSON así:
 
 ```json
-// sitio.webmanifest
 {
   "name": "Laboratorio EnFlujo",
   "short_name": "EnFlujo",
