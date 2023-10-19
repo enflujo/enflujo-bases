@@ -5,7 +5,7 @@ Instrucciones para crear favicons para los sitios web. Basado en este excelente 
 Estos son los elementos que van en el `<head>` del html:
 
 ```html
-<link rel="icon" href="/favicon.ico" sizes="any"><!-- 32×32 -->
+<link rel="icon" href="/favicon.ico" sizes="any"><!-- 500x500 -->
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><!-- 36x36 -->
 <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
 <link rel="manifest" href="/sitio.webmanifest">
