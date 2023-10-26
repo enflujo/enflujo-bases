@@ -44,8 +44,8 @@ El archivo `sitio.webmanifest` se escribe en formato de JSON así:
 
 ```json
 {
-  "name": "Laboratorio EnFlujo // Nombre del sitio web",
-  "short_name": "EnFlujo // Nombre corto del sitio web",
+  "name": "Laboratorio EnFlujo", // Nombre del sitio web
+  "short_name": "EnFlujo", // Nombre corto del sitio web
   "icons": [
     { "src": "/icono_192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "/icono_512.png", "sizes": "512x512", "type": "image/png" }
