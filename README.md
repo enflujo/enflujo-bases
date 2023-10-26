@@ -58,7 +58,7 @@ Normalmente ese archivo se guarda así `recursos/sitio.webmanifest` o `estaticos
 
 --
 
-### Pasos para crear los iconos
+### Pasos para crear los íconos
 
 La imagen desde donde se crean el resto de versiones debe ser un SVG de 512x512. 
 Esa imagen se guarda en `.recursos/icono_512.png`
