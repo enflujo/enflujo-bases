@@ -3,24 +3,30 @@
 
 ## 1. Fuentes suplentes o _font fallbacks_
 
+
 En el espcacio en blanco (__________), va el nombre de la tipografía escogida, que será nuestra primera opción. Cuando esa fuente se demore o no se pueda cargar por alguna razón, el navegador debería usar las que están a la derecha.
 
 El nombre `--fuente` corresponde al nombre de variable que le estamos dando a cada una de las fuentes.
 
+Estos textos normalmente los ponemos en `estilos`:
+```css
+
+root {
+// Monoespaciadas
+--fuenteMonoespaciada: '______________', 'Courier New', monospace;
+
+// Serif
+--fuenteSerifada: '______________', 'Garamond', 'Georgia', 'Times', serif;
+
+// Sans-serif
+--fuenteSinSerifas: '______________',  'Helvetica', 'Roboto', 'Arial', 'Tahoma', 'Verdana', sans-serif;
+
+}
+```
+
 Para cada tipo de fuente se debería poner algo así (el nombre de la variable puede cambiar):
 
-* Monoespaciadas
 
-
-`--fuenteMonoespaciada: '______________', 'Courier New', monospace;`
-
-* Serif
-
-`--fuenteSerifada: '______________', 'Garamond', 'Georgia', 'Times', serif;`
-
-* Sans-serif
-
-`--fuenteSinSerifas: '______________',  'Helvetica', 'Roboto', 'Arial', 'Tahoma', 'Verdana', sans-serif;`
 
 
 ----
