@@ -36,7 +36,8 @@ Para cada tipo de fuente se debería poner algo así (el nombre de la variable p
 
 Basado en este excelente [artículo](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs): 
 
-Estos son los elementos que van en el `<head>` del HTML:
+Estos son los elementos que van en el `<head>` del HTML
+(todas esas rutas también pueden ser relativas, según el proyecto):
 
 ```html
 <link rel="icon" href="/favicon.ico" sizes="32x32">
@@ -46,7 +47,9 @@ Estos son los elementos que van en el `<head>` del HTML:
 ```
 --
 
-El archivo `sitio.webmanifest` se escribe en formato de JSON así:
+El archivo `sitio.webmanifest` se escribe en formato de JSON.
+
+Normalmente ese archivo se guarda así `recursos/sitio.webmanifest` o `estaticos/sitio.webmanifest`, dependiendo como llamemos la carpeta donde guardamos los archivos (íconos, imágenes, etc) que no necesitamos que Astro o Vite, o el _framework_ que estemos usando, procese.
 
 ```json
 {
@@ -60,7 +63,7 @@ El archivo `sitio.webmanifest` se escribe en formato de JSON así:
 
 ```
 
-Normalmente ese archivo se guarda así `recursos/sitio.webmanifest` o `estaticos/sitio.webmanifest`, dependiendo como llamemos la carpeta donde guardamos los archivos (íconos, imágenes, etc) que no necesitamos que Astro o Vite, o el _framework_ que estemos usando, procese.
+
 
 --
 
