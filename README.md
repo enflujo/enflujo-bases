@@ -74,7 +74,7 @@ Esa imagen se guarda en `.recursos/icono_512.png`
 
 Squoosh es una herramienta genial para imágenes rasterizadas:
 
-1. Abre tu imagen icono-512.png en [Squoosh](https://squoosh.app/).
+1. Abre tu imagen icono_512.png en [Squoosh](https://squoosh.app/).
 2. Cambia los ajustes de compresión a `OxiPNG``.
 3. Habilita "Reducir paleta" o “Reduce palette”.
 4. Selecciona 64 colores.
