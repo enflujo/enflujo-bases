@@ -69,7 +69,7 @@ Normalmente ese archivo se guarda así `recursos/sitio.webmanifest` o `estaticos
 
 ### Pasos para crear los íconos
 
-La imagen desde donde se crean el resto de versiones debe ser un SVG de 512x512. 
+La imagen desde donde se crean el resto de versiones debe ser un PNG de 512x512. 
 Esa imagen se guarda en `.recursos/icono_512.png`
 
 Squoosh es una herramienta genial para imágenes rasterizadas:
